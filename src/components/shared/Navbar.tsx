@@ -27,7 +27,7 @@ const Navbar = () => {
           <nav className="flex justify-between items-center">
             <div>
               <NavLink to="/" end>
-                <img src={logo} alt="Logo" className="h-8" />
+                <img src={logo} alt="Logo" className="h-7 md:h-8" />
               </NavLink>
             </div>
             <div

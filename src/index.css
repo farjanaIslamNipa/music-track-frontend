@@ -47,7 +47,7 @@ textarea {
 }
 
 .btn-solid {
-  @apply bg-gradient-to-r from-brand via-[#05d1c4] to-[#26EEA0] rounded-md text-white px-4 py-2 font-bold;
+  @apply bg-gradient-to-r from-brand to-primary rounded-md text-white px-4 py-2 font-bold;
 }
 .btn-outline {
   @apply bg-white border border-gray-400 rounded-md text-brand px-6 py-2 font-semibold;
@@ -64,5 +64,19 @@ textarea {
 }
 
 .custom-input {
-  @apply border border-gray-300 rounded-md w-full py-2 px-4 placeholder:text-sm focus:border-brand focus:shadow-lg;
+  @apply border-b border-[#ed4949] bg-transparent w-full py-2 px-1 text-offWhite placeholder:text-sm placeholder:font-light focus:border-primary focus:shadow-lg focus:bg-transparent;
+}
+
+.register-box{
+  top:50%;
+  left:4%;
+  transform: translate(0%,-50%);
+
+}
+
+@media(max-width: 767px){
+  .register-box{
+    left:50%;
+    transform: translate(-50%,-50%);
+  }
 }

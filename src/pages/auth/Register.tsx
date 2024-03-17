@@ -1,6 +1,5 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import AuthLayout from "../../components/layouts/AuthLayout";
-import logo from "../../assets/images/dashboard-logo.svg";
+import logo from "../../assets/images/auth-logo.svg";
 import eye from "../../assets/images/eye.svg";
 import eyeSlash from "../../assets/images/eye-slash.svg";
 import Button from "../../components/ui/Button";
@@ -54,20 +53,12 @@ const Register = () => {
   };
 
   return (
-    <AuthLayout>
+    <div className="w-full bg-brand lg:bg-secondary bg-opacity-70 lg:bg-opacity-35 p-6 rounded-3xl z-50">
       <div className="flex justify-center">
-        <NavLink to="/" className="inline-block">
           <img src={logo} alt="logo" className="h-16" />
-        </NavLink>
       </div>
-
-      <p className="mt-5 text-center text-sm">
-        Register to join with <b>HAH</b>
-      </p>
-      <form onSubmit={handleSubmit(onSubmit)} className="pt-4 pb-2 space-y-3">
+      <form onSubmit={handleSubmit(onSubmit)} className="pt-6 pb-2 space-y-6">
         <div>
-          <label className="font-semibold text-sm">Username</label>
-          <br />
           <input
             type="text"
             id="username"
@@ -82,8 +73,6 @@ const Register = () => {
           )}
         </div>
         <div>
-          <label className="font-semibold text-sm">Email</label>
-          <br />
           <input
             type="email"
             id="email"
@@ -98,8 +87,6 @@ const Register = () => {
           )}
         </div>
         <div className="relative">
-          <label className="font-semibold text-sm">Password</label>
-          <br />
           <input
             type={!showPassword ? "password" : "text"}
             id="password"
@@ -117,7 +104,7 @@ const Register = () => {
               <img
                 src={eyeSlash}
                 alt=""
-                className="absolute top-9 right-4 h-5"
+                className="absolute top-3 right-4 h-5"
               />
             ) : (
               <img src={eye} alt="" className="absolute top-9 right-4 h-5" />
@@ -129,17 +116,17 @@ const Register = () => {
             Register
           </Button>
         </div>
-        <div className="text-sm">
+        <div className="text-sm text-offWhite text-center">
           Already have an account?
           <NavLink
             to="/login"
-            className="font-bold text-brand hover:text-secondary text-base pl-2"
+            className="font-bold text-primary hover:text-secondary text-base pl-2"
           >
             Login
           </NavLink>
         </div>
       </form>
-    </AuthLayout>
+    </div>
   );
 };
 
