@@ -107,7 +107,7 @@ const Register = () => {
                 className="absolute top-3 right-4 h-5"
               />
             ) : (
-              <img src={eye} alt="" className="absolute top-9 right-4 h-5" />
+              <img src={eye} alt="" className="absolute top-4 right-4 h-[14px]" />
             )}
           </button>
         </div>

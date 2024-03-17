@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import AuthLayout from "../../components/layouts/AuthLayout";
-import logo from "../../assets/images/dashboard-logo.svg";
+import logo from "../../assets/images/auth-logo.svg";
 import eye from "../../assets/images/eye.svg";
 import eyeSlash from "../../assets/images/eye-slash.svg";
 import Button from "../../components/ui/Button";
@@ -59,18 +59,12 @@ const Login = () => {
   return (
     <AuthLayout>
       <div className="flex justify-center">
-        <NavLink to="/" className="inline-block">
+        <NavLink to="/">
           <img src={logo} alt="logo" className="h-16" />
         </NavLink>
       </div>
-
-      <p className="mt-5 text-center text-sm">
-        Login to continue with <b>HAH</b>
-      </p>
-      <form onSubmit={handleSubmit(onSubmit)} className="pt-4 pb-2 space-y-3">
+      <form onSubmit={handleSubmit(onSubmit)} className="pt-10 pb-2 space-y-7">
         <div>
-          <label className="font-semibold text-sm">Email</label>
-          <br />
           <input
             type="email"
             className="custom-input"
@@ -84,8 +78,6 @@ const Login = () => {
           )}
         </div>
         <div className="relative">
-          <label className="font-semibold text-sm">Password</label>
-          <br />
           <input
             type={!showPassword ? "password" : "text"}
             className="custom-input"
@@ -102,23 +94,23 @@ const Login = () => {
               <img
                 src={eyeSlash}
                 alt=""
-                className="absolute top-9 right-4 h-5"
+                className="absolute top-3 right-4 h-5"
               />
             ) : (
-              <img src={eye} alt="" className="absolute top-9 right-4 h-5" />
+              <img src={eye} alt="" className="absolute top-4 right-4 h-[14px]" />
             )}
           </button>
         </div>
-        <div className="pt-2">
+        <div className="pt-5">
           <Button type="submit" className="w-full tracking-widest">
             Login
           </Button>
         </div>
-        <div className="text-sm">
+        <div className="text-sm text-offWhite text-center">
           Don’t have an account?
           <NavLink
             to="/register"
-            className="font-bold text-brand hover:text-secondary text-base pl-2"
+            className="font-bold text-primary hover:text-offWhite text-base pl-2"
           >
             Register
           </NavLink>
