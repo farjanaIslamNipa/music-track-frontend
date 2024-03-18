@@ -6,7 +6,7 @@ import instagram from "../../assets/images/instagram.svg";
 const Footer = () => {
   return (
     <div>
-      <div className="bg-secondary pt-10 sm:pt-14 pb-5 sm:pb-10 lg:pb-14">
+      <div className="bg-brand pt-10 sm:pt-14 pb-5 sm:pb-10 lg:pb-14">
         <div className="custom-container">
           <div className="block sm:flex items-center gap-6 lg:gap-10">
             <div className="mb-5 sm:mb-0">
@@ -70,7 +70,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="bg-brand p-5">
+      <div className="bg-secondary p-5">
         <p className="text-center text-sm text-offWhite">
           © {new Date().getFullYear()}. Music360. All rights reserved.
         </p>

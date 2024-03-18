@@ -63,6 +63,17 @@ textarea {
   }
 }
 
+.search-btn{
+  @apply bg-gradient-to-r from-[#E20707] to-[#1F1212] text-lg font-medium h-[50px] text-offWhite
+}
+
+.search-btn{
+  border-radius: 0 5px 5px 0;
+  clip-path: polygon(22% 0, 100% 0%, 100% 100%, 0% 100%);
+  margin-left: -59px;
+  padding: 0 35px 0 40px;
+}
+
 .custom-input {
   @apply border-b border-[#ed4949] bg-transparent w-full py-2 px-1 text-offWhite placeholder:text-sm placeholder:font-light focus:border-primary focus:shadow-lg focus:bg-transparent;
 }
@@ -79,4 +90,18 @@ textarea {
     left:50%;
     transform: translate(-50%,-50%);
   }
+}
+.sub-header{
+  @apply relative
+}
+.sub-header::after{
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 6px;
+  border: 10px solid transparent;
+  border-right: 0;
+  border-left: 12px solid #E20707;
+  margin-left: 6px;
 }

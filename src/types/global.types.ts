@@ -16,3 +16,15 @@ export type TResponse<T> = {
 }
 
 export type TResponseRedux<T> = TResponse<T> & BaseQueryApi
+
+export type TMusic = {
+  id: number;
+  singer: string;
+  title: string;
+  album: string;
+  coverImg: string;
+  isTrending: boolean;
+  isRecommended: boolean;
+  src:string;
+}
+
