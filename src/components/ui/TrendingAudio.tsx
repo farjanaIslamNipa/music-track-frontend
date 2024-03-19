@@ -12,20 +12,20 @@ const TrendingAudio = ({audio} : {audio: TMusic}) => {
   return (
     <div className="relative bg-offWhite rounded-xl p-3">
     <div className="grid grid-cols-12 items-center gap-y-2 md:gap-y-0">
-      <div className='col-span-12 md:col-span-3 lg:col-span-2'>
+      <div className='col-span-12 sm:col-span-3 lg:col-span-2'>
         <div className='h-[90px] w-[90px]'>
           <img src={audio?.coverImg} className='h-full w-full object-cover rounded-xl' alt="" />
         </div>
       </div>
-      <div className="col-span-12 md:col-span-7 lg:col-span-8">
+      <div className="col-span-12 sm:col-span-7 lg:col-span-8">
         <div className='pl-0 lg:pl-4 xl:pl-0'>
           <p><b>Track:</b> {audio?.title}</p>
           <p><b>Singer:</b> {audio?.singer}</p>
           <p className="uppercase text-sm font-bold"><b className="capitalize">Album:</b> {audio?.album}</p>
         </div>
       </div>
-      <div className='col-span-12 md:col-span-2 flex justify-start md:justify-end items-center pr-5'>
-        <p className='font-semibold pr-3 block md:hidden'>Play Music:</p>
+      <div className='col-span-12 sm:col-span-2 flex justify-start md:justify-end items-center pr-5'>
+        <p className='font-semibold pr-3 block sm:hidden'>Play Music:</p>
         <button
           onClick={toggleAudio}
           type="button"

@@ -12,7 +12,7 @@ const RecommendedMusicSection = () => {
     dispatch(getRecommendedPlaylists())
   }, [dispatch])
   return (
-    <div className="pb-20 pt-20 pl-20">
+    <div className="pb-20 pt-20 pl-5 xl:pl-20">
         <h2 className="text-2xl font-extrabold sub-header">Recommended for You</h2>
         <div className="mt-8 grid grid-cols-2 gap-5">
         {

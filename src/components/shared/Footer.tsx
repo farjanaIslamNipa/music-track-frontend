@@ -18,7 +18,7 @@ const Footer = () => {
                   <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
                     <div className="flex justify-start md:justify-center">
                       <NavLink
-                        to="/supplies"
+                        to="/trending"
                         className="px-4 py-2 text-offWhite"
                       >
                        Trending

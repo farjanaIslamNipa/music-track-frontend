@@ -114,3 +114,16 @@ textarea {
 .audio-card:hover .control-btn{
   opacity: 1;
 }
+
+.trending-bg{
+  background-image: url('./assets/images/banner-5.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.recommended-bg{
+  background-image: url('./assets/images/banner-6.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}

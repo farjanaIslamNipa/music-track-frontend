@@ -50,7 +50,7 @@ const HomePage = () => {
         </form>
       </div>
       <div className="custom-container">
-        <div className="grid grid-cols-5 gap-4">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
           {
             playlists?.map(item => <div key={item.id}>
               <Audio audio={item} />
@@ -60,10 +60,10 @@ const HomePage = () => {
       </div>
       <div className="custom-container">
         <div className="grid grid-cols-12">
-          <div className="col-span-7">
+          <div className="col-span-12 md:col-span-7">
             <TrendingMusicSection />
           </div>
-          <div className="col-span-5">
+          <div className="col-span-12 md:col-span-5">
             <RecommendedMusicSection />
           </div>
         </div>
