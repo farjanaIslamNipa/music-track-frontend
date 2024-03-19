@@ -105,3 +105,12 @@ textarea {
   border-left: 12px solid #E20707;
   margin-left: 6px;
 }
+
+.control-btn{
+  opacity: 0.4;
+  transition: all 0.3s ease;
+}
+
+.audio-card:hover .control-btn{
+  opacity: 1;
+}

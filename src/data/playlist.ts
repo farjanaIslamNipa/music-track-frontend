@@ -7,7 +7,7 @@ export const playlistData = [
     coverImg: "/audio-cover/ZARA-ARSHAKIAN.jpeg",
     isTrending: false,
     isRecommended: false,
-    src: "/audio/LEEONA_-_LEEONA_-_Do_I.mp3"
+    src: "/public/audio/LEEONA_-_LEEONA_-_Do_I.mp3"
   },
   {
     id: 2,
@@ -24,7 +24,7 @@ export const playlistData = [
     singer: "Imagine Dragons",
     title: "Alone",
     album: "COLOR OUT",
-    coverImg: "/audio-cover/alone.jpeg",
+    coverImg: "/audio-cover/criminal.jpeg",
     isTrending: true,
     isRecommended: true,
     src: "/audio/Alone_-_Color_Out.mp3"
@@ -127,7 +127,7 @@ export const playlistData = [
     coverImg: "/audio-cover/crazy.jpeg",
     isTrending: true,
     isRecommended: true,
-    src: "/audio/LEEONA_-_LEEONA_-_Do_I.mp3"
+    src: "/public/audio/LEEONA_-_LEEONA_-_Do_I.mp3"
   },
   {
     id: 14,
@@ -277,7 +277,7 @@ export const playlistData = [
     coverImg: "/audio-cover/album-27.jpeg",
     isTrending: true,
     isRecommended: true,
-    src: "/audio/LEEONA_-_LEEONA_-_Do_I.mp3"
+    src: "/audio/Who_Called_Who_-_samiebower_(2).mp3"
   },
   {
     id: 29,
