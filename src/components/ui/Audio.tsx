@@ -1,25 +1,16 @@
-import {useRef, useState} from 'react';
+import {useRef} from 'react';
 import playIcon from '../../assets/images/play.svg'
 import pauseIcon from '../../assets/images/pause.svg'
 import {TMusic} from '../../types';
+import useAudioPlayer from '../../hooks/useAudioPlayer';
 
 const Audio = ({audio} : {audio: TMusic}) => {
+  const playRef = useRef<HTMLAudioElement>(null);
+  const [play, toggleAudio] = useAudioPlayer(false, playRef);
 
-    const [play, setPlay] = useState(false);
-    const oceanRef = useRef<HTMLAudioElement>(null);
-  
-    function toggleAudio(): void {
-      if (play) {
-        oceanRef.current?.pause();
-        setPlay(false);
-      } else {
-        void oceanRef.current?.play();
-        setPlay(true);
-      }
-    }
   
   return (
-    <main className="relative rounded-lg pb-3 shadow h-full audio-card">
+    <div className="relative rounded-lg pb-3 shadow h-full audio-card">
     <div className="">
     <div className='h-[200px] w-full'>
       <img src={audio?.coverImg} className='h-full w-full object-cover rounded-t-xl' alt="" />
@@ -41,8 +32,8 @@ const Audio = ({audio} : {audio: TMusic}) => {
     <p className="text-xs uppercase font-bold">{audio?.album}</p>
   </div>
     </div>
-    <audio ref={oceanRef} src={audio?.src} />
-  </main>
+    <audio ref={playRef} src={audio?.src} />
+  </div>
   );
 };
 

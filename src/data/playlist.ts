@@ -15,7 +15,7 @@ export const playlistData = [
     title: "A Moment In Time",
     album: "A Moment In Time",
     coverImg: "/audio-cover/graham.jpeg",
-    isTrending: true,
+    isTrending: false,
     isRecommended: false,
     src: "/audio/A_Moment_in_Time_-_Graham_Coe.mp3"
   },
@@ -25,8 +25,8 @@ export const playlistData = [
     title: "Alone",
     album: "COLOR OUT",
     coverImg: "/audio-cover/criminal.jpeg",
-    isTrending: true,
-    isRecommended: true,
+    isTrending: false,
+    isRecommended: false,
     src: "/audio/Alone_-_Color_Out.mp3"
   },
   {
@@ -36,7 +36,7 @@ export const playlistData = [
     album: "INFRACTION",
     coverImg: "/audio-cover/INFRACTION.jpeg",
     isTrending: false,
-    isRecommended: true,
+    isRecommended: false,
     src: "/audio/Around_The_Corner_-_Infraction.mp3"
   },
   {
@@ -45,8 +45,8 @@ export const playlistData = [
     title: "B U R N",
     album: "BESSONN&SA",
     coverImg: "/audio-cover/burn.jpeg",
-    isTrending: true,
-    isRecommended: true,
+    isTrending: false,
+    isRecommended: false,
     src: "/audio/B_U_R_N_-_bessonnitsa.mp3"
   },
   {
@@ -55,8 +55,8 @@ export const playlistData = [
     title: "Blind Girl (Feat. Dia Yiannopoulou)",
     album: "ZERO-PROJECT",
     coverImg: "/audio-cover/blind-girl.jpeg",
-    isTrending: false,
-    isRecommended: true,
+    isTrending: true,
+    isRecommended: false,
     src: "/audio/Blind_girl_(feat._Dia_Yiannopoulou)_-_zero-project.mp3"
   },
   {
@@ -65,8 +65,8 @@ export const playlistData = [
     title: "Blood",
     album: "ALL MY FRIENDS HATE ME",
     coverImg: "/audio-cover/blood.jpeg",
-    isTrending: true,
-    isRecommended: true,
+    isTrending: false,
+    isRecommended: false,
     src: "/audio/Blood_-_All_My_Friends_Hate_Me.mp3"
   },
   {
@@ -75,8 +75,8 @@ export const playlistData = [
     title: "Carbon Casca - Bad Like That (Feat. King Whiz)",
     album: "CARBON CASCA",
     coverImg: "/audio-cover/carbon.jpeg",
-    isTrending: true,
-    isRecommended: true,
+    isTrending: false,
+    isRecommended: false,
     src: "/audio/Carbon_Casca_-_Bad_Like_That_(Feat._King_Whiz)_-_Carbon_Casca.mp3"
   },
   {
@@ -86,7 +86,7 @@ export const playlistData = [
     album: "THE DEVIL MUSIC CO.",
     coverImg: "/audio-cover/color.jpeg",
     isTrending: true,
-    isRecommended: true,
+    isRecommended: false,
     src: "/audio/Color_Out_-_Host.mp3"
   },
   {
@@ -145,8 +145,8 @@ export const playlistData = [
     title: "Lose You to Love Me",
     album: "Rare",
     coverImg: "/audio-cover/selena.jpeg",
-    isTrending: true,
-    isRecommended: true,
+    isTrending: false,
+    isRecommended: false,
     src: "/audio/Alone_-_Color_Out.mp3"
   },
   {
@@ -155,8 +155,8 @@ export const playlistData = [
     title: "Stay With Me",
     album: "In the Lonely Hour",
     coverImg: "/audio-cover/sam-smith.jpeg",
-    isTrending: true,
-    isRecommended: true,
+    isTrending: false,
+    isRecommended: false,
     src: "/audio/Around_The_Corner_-_Infraction.mp3"
   },
   {
@@ -165,7 +165,7 @@ export const playlistData = [
     title: "Senorita",
     album: "Senorita",
     coverImg: "/audio-cover/senorita.jpeg",
-    isTrending: true,
+    isTrending: false,
     isRecommended: true,
     src: "/audio/Who_Called_Who_-_samiebower_(2).mp3"
   },
@@ -176,7 +176,7 @@ export const playlistData = [
     album: "Camila",
     coverImg: "/audio-cover/youhan.jpeg",
     isTrending: true,
-    isRecommended: true,
+    isRecommended: false,
     src: "/audio/Carbon_Casca_-_Bad_Like_That_(Feat._King_Whiz)_-_Carbon_Casca.mp3"
   },
   {
@@ -185,8 +185,8 @@ export const playlistData = [
     title: "In My Feelings",
     album: "Scorpion",
     coverImg: "/audio-cover/download.jpeg",
-    isTrending: true,
-    isRecommended: true,
+    isTrending: false,
+    isRecommended: false,
     src: "/audio/Criminal_-_Axl_amp_Arth.mp3"
   },
   {
@@ -195,8 +195,8 @@ export const playlistData = [
     title: "Diamonds",
     album: "Unapologetic",
     coverImg: "/audio-cover/rihana.jpeg",
-    isTrending: true,
-    isRecommended: true,
+    isTrending: false,
+    isRecommended: false,
     src: "/audio/Who_Called_Who_-_samiebower_(2).mp3"
   },
   {
@@ -206,7 +206,7 @@ export const playlistData = [
     album: "Thank U, Next",
     coverImg: "/audio-cover/album-20.jpeg",
     isTrending: true,
-    isRecommended: true,
+    isRecommended: false,
     src: "/audio/Color_Out_-_Host.mp3"
   },
   {
@@ -215,7 +215,7 @@ export const playlistData = [
     title: "Wrecking Ball",
     album: "Bangerz",
     coverImg: "/audio-cover/album-21.jpeg",
-    isTrending: true,
+    isTrending: false,
     isRecommended: true,
     src: "/audio/Carbon_Casca_-_Bad_Like_That_(Feat._King_Whiz)_-_Carbon_Casca.mp3"
   },
@@ -225,8 +225,8 @@ export const playlistData = [
     title: "Chandelier",
     album: "1000 Forms of Fear",
     coverImg: "/audio-cover/album-22.jpeg",
-    isTrending: true,
-    isRecommended: true,
+    isTrending: false,
+    isRecommended: false,
     src: "/audio/Color_Out_-_Host.mp3"
   },
   {
@@ -235,8 +235,8 @@ export const playlistData = [
     title: "Shallow",
     album: "A Star Is Born Soundtrack",
     coverImg: "/audio-cover/album-23.jpeg",
-    isTrending: true,
-    isRecommended: true,
+    isTrending: false,
+    isRecommended: false,
     src: "/audio/Who_Called_Who_-_samiebower_(2).mp3"
   },
   {
@@ -246,7 +246,7 @@ export const playlistData = [
     album: "Collage",
     coverImg: "/audio-cover/album-24.jpeg",
     isTrending: true,
-    isRecommended: true,
+    isRecommended: false,
     src: "/audio/Blind_girl_(feat._Dia_Yiannopoulou)_-_zero-project.mp3"
   },
   {
@@ -255,7 +255,7 @@ export const playlistData = [
     title: "Attention",
     album: "Voicenotes",
     coverImg: "/audio-cover/album-25.jpeg",
-    isTrending: true,
+    isTrending: false,
     isRecommended: true,
     src: "/audio/Who_Called_Who_-_samiebower_(2).mp3"
   },
@@ -265,7 +265,7 @@ export const playlistData = [
     title: "Despacito",
     album: "Vida",
     coverImg: "/audio-cover/album-26.jpeg",
-    isTrending: true,
+    isTrending: false,
     isRecommended: true,
     src: "/audio/Criminal_-_Axl_amp_Arth.mp3"
   },
@@ -275,7 +275,7 @@ export const playlistData = [
     title: "The Middle",
     album: "The Middle",
     coverImg: "/audio-cover/album-27.jpeg",
-    isTrending: true,
+    isTrending: false,
     isRecommended: true,
     src: "/audio/Who_Called_Who_-_samiebower_(2).mp3"
   },
@@ -296,7 +296,7 @@ export const playlistData = [
     album: "Motion",
     coverImg: "/audio-cover/album-29.jpeg",
     isTrending: true,
-    isRecommended: true,
+    isRecommended: false,
     src: "/audio/Color_Out_-_Host.mp3"
   }
 ]

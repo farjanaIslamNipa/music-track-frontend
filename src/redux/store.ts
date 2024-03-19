@@ -1,6 +1,7 @@
 import { configureStore } from '@reduxjs/toolkit'
 import {baseApi} from './api/baseApi'
 import authReducer from './features/auth/authSlice'
+import playlistReducer from './features/playlist/playlistSlice'
 import storage from 'redux-persist/lib/storage'
 import { 
   persistReducer, 
@@ -22,7 +23,8 @@ const persistedAuthReducer = persistReducer(persistConfig, authReducer)
 export const store = configureStore({
   reducer: {
     [baseApi.reducerPath] : baseApi.reducer,
-    auth: persistedAuthReducer
+    auth: persistedAuthReducer,
+    playlists: playlistReducer
   },
   middleware : (getDefaultMiddlewares) => getDefaultMiddlewares({
     serializableCheck: {
