@@ -21,7 +21,7 @@ const TrendingMusicSection = () => {
       </div>
       <div className="mt-8 space-y-2">
           {
-            trending?.map(audio => 
+            trending?.slice(0, 5).map(audio => 
             <TrendingAudio key={audio.id} audio={audio} />
             )
           }

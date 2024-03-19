@@ -216,7 +216,7 @@ export const playlistData = [
     album: "Bangerz",
     coverImg: "/audio-cover/album-21.jpeg",
     isTrending: false,
-    isRecommended: true,
+    isRecommended: false,
     src: "/audio/Carbon_Casca_-_Bad_Like_That_(Feat._King_Whiz)_-_Carbon_Casca.mp3"
   },
   {

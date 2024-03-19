@@ -25,7 +25,7 @@ const TrendingAudio = ({audio} : {audio: TMusic}) => {
         </div>
       </div>
       <div className='col-span-12 md:col-span-2 flex justify-start md:justify-end items-center pr-5'>
-        <p className='font-semibold pr-3'>Play Music:</p>
+        <p className='font-semibold pr-3 block md:hidden'>Play Music:</p>
         <button
           onClick={toggleAudio}
           type="button"

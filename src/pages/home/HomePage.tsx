@@ -8,6 +8,7 @@ import { playlistData } from "../../data/playlist";
 import Audio from "../../components/ui/Audio";
 import {useAppDispatch, useAppSelector} from "../../redux/hooks";
 import {getPlaylists} from "../../redux/features/playlist/playlistSlice";
+import RecommendedMusicSection from "../../components/home/RecommendedMusicSection";
 
 
 const HomePage = () => {
@@ -61,6 +62,9 @@ const HomePage = () => {
         <div className="grid grid-cols-12">
           <div className="col-span-7">
             <TrendingMusicSection />
+          </div>
+          <div className="col-span-5">
+            <RecommendedMusicSection />
           </div>
         </div>
       </div>
